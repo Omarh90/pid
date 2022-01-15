@@ -40,11 +40,11 @@ Assumptions written into script:
 
 > Dead volume of pump is accounted for by PID and priming, but not rigorously so, as priming needs are dependent on pump type.
 
-> Additonal sensors and actuators exist beyond what was stated in prompt. Namely:
+> Additonal sensors and actuators:
   > Valve (e.g. 8-port inline valve) connects pump and vessle for priming purposes.
   > There exists a pressure sensor, as pressure readings may be required for safety purposes. (Semiclosed vessle in experimental conditions containing culture that will generate pressure - possible safety hazard if culture grows too fast.)
 
-Addtional functions required for running experiment (but left empty; beyond scope):
+Addtional functions required for running  (but outside of MVP):
 
 > feedstock empty - checks if feedstock ran out based on ,mass
 
